@@ -87,6 +87,8 @@ console.log(getNumber());
 function getArea() {
     return Math.PI * this.radius ** 2;
 } 
+
+
 function getPerimeter() {
     return 2 * Math.PI * this.radius;
 }
