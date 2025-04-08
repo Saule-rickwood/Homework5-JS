@@ -98,12 +98,10 @@ const circle1 = {
     methodGetArea: getArea,
     methodGetPerimeter: getPerimeter,
 }
-
 const circle2 = {
     radius: 20,
     methodGetArea: getArea,
     methodGetPerimeter: getPerimeter,
 }
-
 console.log(circle1.methodGetArea ());
 console.log(circle2.methodGetArea());
